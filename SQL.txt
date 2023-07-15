@@ -1,0 +1,43 @@
+1.	Obtener la lista de los productos no descatalogados incluyendo el nombre de la categoría ordenado por nombre de producto.
+SELECT Products.ProductName, Categories.CategoryName
+FROM Products
+JOIN Categories ON Products.CategoryID = Categories.CategoryID
+WHERE Products.Discontinued = 0
+ORDER BY Products.ProductName;
+
+2.	Mostrar el nombre de los clientes de Nancy Davolio.
+SELECT DISTINCT Customers.CustomerName
+FROM Customers
+JOIN Orders ON Customers.CustomerID = Orders.CustomerID
+JOIN [Order Details] ON Orders.OrderID = [Order Details].OrderID
+JOIN Products ON [Order Details].ProductID = Products.ProductID
+JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID
+JOIN Employees ON Suppliers.EmployeeID = Employees.EmployeeID
+WHERE Employees.FirstName = 'Nancy' AND Employees.LastName = 'Davolio';
+
+3.	Mostrar el total facturado por año del empleado Steven Buchanan.
+SELECT YEAR(Orders.OrderDate) AS Year, SUM(OrderDetails.Quantity * OrderDetails.UnitPrice) AS TotalAmount
+FROM Orders
+JOIN OrderDetails ON Orders.OrderID = OrderDetails.OrderID
+JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID
+WHERE Employees.FirstName = 'Steven' AND Employees.LastName = 'Buchanan'
+GROUP BY YEAR(Orders.OrderDate);
+
+4.	Mostrar el nombre de los empleados que dependan directa o indirectamente de Andrew Fuller.
+WITH DirectReports AS (
+  SELECT EmployeeID, FirstName, LastName
+  FROM Employees
+  WHERE ReportsTo = (
+    SELECT EmployeeID
+    FROM Employees
+    WHERE FirstName = 'Andrew' AND LastName = 'Fuller'
+  )
+  
+  UNION ALL
+  
+  SELECT e.EmployeeID, e.FirstName, e.LastName
+  FROM Employees e
+  INNER JOIN DirectReports dr ON e.ReportsTo = dr.EmployeeID
+)
+SELECT FirstName, LastName
+FROM DirectReports;
