@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>WebTreeView</title>
+</head>
+<body>
+    <div id="web-tree-view">
+        
+    </div>
+	<script type="text/javascript">
+		const treeViewId = document.getElementById("web-tree-view");
+		
+		const jsonData = [
+		  {
+			"Name": "Item 1",
+			"Children": [
+			  {
+				"Name": "Item 1.1",
+				"Children": [
+				  {
+					"Name": "Item 1.1.1",
+					"Children": [ ]
+				  },
+				  {
+					"Name": "Item 1.1.2",
+					"Children": [ ]
+				  },
+				  {
+					"Name": "Item 1.1.3",
+					"Children": [ ]
+				  }
+				]
+			  },
+			  {
+				"Name": "Item 1.2",
+				"Children": [
+				  {
+					"Name": "Item 1.2.1",
+					"Children": [ ]
+				  },
+				  {
+					"Name": "Item 1.2.2",
+					"Children": [ ]
+				  },
+				  {
+					"Name": "Item 1.2.3",
+					"Children": [ ]
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"Name": "Item 2",
+			"Children": [
+			  {
+				"Name": "Item 2.1",
+				"Children": [
+				  {
+					"Name": "Item 2.1.1",
+					"Children": [ ]
+				  },
+				  {
+					"Name": "Item 2.1.2",
+					"Children": [ ]
+				  },
+				  {
+					"Name": "Item 2.1.3",
+					"Children": [ ]
+				  }
+				]
+			  }
+			]
+		  }
+		];
+		
+		treeViewId.innerHTML = ToTreeView(jsonData);
+		
+		//fetch('./Items.json')
+		//  .then(response => response.json())
+		//  .then(jsonResponse => {
+		//		treeViewId.innerHTML = ToTreeView(jsonResponse);
+		//  });
+		
+		function ToTreeView(items) {
+			let lines = "";
+			lines = lines.concat("<ul>");
+			for(let i = 0, l = items.length; i < l; i++) {
+				let item = items[i];
+				lines = lines.concat("<li><span>" + item.Name + "</span>");
+				
+				if(item.Children.length > 0){
+					let subLines = ToTreeView(item.Children);
+					for(let j = 0, m = subLines.length; j < m; j++) {
+						lines = lines.concat(subLines[j]);
+					}
+				}
+				lines = lines.concat("</li>");
+			}
+			lines = lines.concat("</ul>");
+			return lines;
+		}
+	</script>
+</body>
+</html>
+

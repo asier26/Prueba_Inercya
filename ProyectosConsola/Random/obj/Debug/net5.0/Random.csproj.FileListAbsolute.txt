@@ -1,0 +1,16 @@
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\bin\Debug\net5.0\Random.exe
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\bin\Debug\net5.0\Random.deps.json
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\bin\Debug\net5.0\Random.runtimeconfig.json
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\bin\Debug\net5.0\Random.runtimeconfig.dev.json
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\bin\Debug\net5.0\Random.dll
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\bin\Debug\net5.0\ref\Random.dll
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\bin\Debug\net5.0\Random.pdb
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\obj\Debug\net5.0\Random.csproj.AssemblyReference.cache
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\obj\Debug\net5.0\Random.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\obj\Debug\net5.0\Random.AssemblyInfoInputs.cache
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\obj\Debug\net5.0\Random.AssemblyInfo.cs
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\obj\Debug\net5.0\Random.csproj.CoreCompileInputs.cache
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\obj\Debug\net5.0\Random.dll
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\obj\Debug\net5.0\ref\Random.dll
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\obj\Debug\net5.0\Random.pdb
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Random\obj\Debug\net5.0\Random.genruntimeconfig.cache
