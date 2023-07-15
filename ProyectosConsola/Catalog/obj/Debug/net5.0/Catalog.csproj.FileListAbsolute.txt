@@ -1,0 +1,15 @@
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Catalog\bin\Debug\net5.0\Catalog.exe
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Catalog\bin\Debug\net5.0\Catalog.deps.json
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Catalog\bin\Debug\net5.0\Catalog.runtimeconfig.json
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Catalog\bin\Debug\net5.0\Catalog.runtimeconfig.dev.json
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Catalog\bin\Debug\net5.0\Catalog.dll
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Catalog\bin\Debug\net5.0\ref\Catalog.dll
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Catalog\bin\Debug\net5.0\Catalog.pdb
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Catalog\obj\Debug\net5.0\Catalog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Catalog\obj\Debug\net5.0\Catalog.AssemblyInfoInputs.cache
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Catalog\obj\Debug\net5.0\Catalog.AssemblyInfo.cs
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Catalog\obj\Debug\net5.0\Catalog.csproj.CoreCompileInputs.cache
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Catalog\obj\Debug\net5.0\Catalog.dll
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Catalog\obj\Debug\net5.0\ref\Catalog.dll
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Catalog\obj\Debug\net5.0\Catalog.pdb
+C:\Users\e21020\Desktop\Prueba Tecnica\ProyectosConsola\Catalog\obj\Debug\net5.0\Catalog.genruntimeconfig.cache
